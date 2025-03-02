@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Science Portfolio on Dr. Eng. Frederick N. Numbisi</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Data Science Portfolio on Dr. Eng. Frederick N. Numbisi</description>
+    <title>Projects on Dr. Eng. Frederick N. Numbisi</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Projects on Dr. Eng. Frederick N. Numbisi</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 12 Apr 2024 11:14:48 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>project 6: Mapping Arid vegetation communities and habitats</title>
       <link>http://localhost:1313/post/project-6/</link>
@@ -49,20 +49,6 @@
       <pubDate>Mon, 09 Apr 2018 10:58:08 -0400</pubDate>
       <guid>http://localhost:1313/post/project-1/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Developed a classifier procedure for discriminating perennial cocoa agroforestry land cover.&lt;/li&gt;&#xA;&lt;li&gt;Compared a multi-spectral optical image from RapidEye, acquired in the dry season, and multi-seasonal C-band SAR of Sentinel 1.&lt;/li&gt;&#xA;&lt;li&gt;Hand engineered Grey Level Co-occurrence Matrix (GLCM) texture features (images) from Sentinel-1 Image time series covering six dry and four wet seasons from 2015 to 2017.&lt;/li&gt;&#xA;&lt;li&gt;Optimised Random Forest Ensemble classifier models using different input feature combinations; multi-spectral reflectance, vegetation indices, co-(VV) and cross-(VH) polarised SAR intensity and GLCM texture measures.&lt;/li&gt;&#xA;&lt;li&gt;Evaluated accuracy metrics and uncertainty Shannon entropy - information loss in classification.&lt;/li&gt;&#xA;&lt;li&gt;Built a classifier and uncertainty measures that provide reliable validation of class discrimination at different spatial resolution.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/Figure_3_IJGI_NumbisiFN.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;SAR Backscatter Time-series over different land uses&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/Figure_8_IJGI_NumbisiFN.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Sentinel-1 SAR GLCM Texture-Based Discrimination of Cocoa Agroforestry land use&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/Figure_6_IJGI_NumbisiFN.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Land use classification compared for Sentinel-1 SAR and Rapid-Eye&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title> About </title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/AboutPic_Frederick_cropped.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Remote Sensing and Vegetation Analytics are my passions. I have been working in the nexus of Forestry, Agroforestry, Remote Sensing and Data science fields and conducting vegetation cover inventory and analytics projects for the last 10 years. Transitioning into data science and ecological informatics from a natural science background, I have held data management and remote sensing scientist positions in companies ranging from Universities, International NGOs and renown Biodiversity Research &amp;amp; Conservation Organizations. I strive towards improving my experience and contributing to an understanding of information that intersect between Data Science and Earth Observation. This will leverage different and related goals in vegetation monitoring &amp;amp; management, land use sustainability, and EUDR Due Diligence verification and Risk Mitigation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Follow me on these social media platforms.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Platform&lt;/th&gt;&#xA;          &lt;th&gt;URL&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Website:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.fredericknumbisi-dev.org&#34;&gt;https://www.fredericknumbisi-dev.org&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;LinkedIn:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/frederick-n-numbisi/&#34;&gt;https://www.linkedin.com/in/frederick-n-numbisi/&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;ResearchGate:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Frederick_N_Numbisi&#34;&gt;https://www.researchgate.net/profile/Frederick_N_Numbisi&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Publons:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://publons.com/researcher/3030082/frederick-nkeumoe-numbisi/&#34;&gt;https://publons.com/researcher/3030082/frederick-nkeumoe-numbisi/&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GitHub:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://github.com/Frederick-Numbisi&#34;&gt;https://github.com/Frederick-Numbisi&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
   </channel>
 </rss>
