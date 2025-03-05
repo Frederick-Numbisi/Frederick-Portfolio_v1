@@ -233,7 +233,8 @@
 											</p>
 								        	</div>
 						          			<a href="post/project-6/index.html" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">
-											read more</a>
+											read more
+										</a>
 						        
 						      			</div>
 						    		</div>
@@ -244,66 +245,70 @@
 			          
 			            	<div class="relative w-100 mb4">
 			              
-					<article class="bb b--black-10">
-					  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-					    <div class="flex flex-column flex-row-ns">
-					      
-					          
-					        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-					          <a href="post/project-5/index.html" class="db grow">
-					            <img src="images/Ashar/WadiAsharVegetation_Figure4.png" class="img" alt="image from Project 5: Predictor of Plant distribution clusters">
-					          </a>
-					        </div>
-					      
-					      <div class="blah w-100 w-60-ns pl3-ns">
-					        <h1 class="f3 fw1 athelas mt0 lh-title">
-					          <a href="post/project-5/index.html" class="color-inherit dim link">
-					            Project 5: Predictor of Plant distribution clusters
-					            </a>
-					        </h1>
-					        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-					          <ul>
-					<li>As a proxy for vegetation photosynthetic activity, vegetation indices (VIs) were estimated from the visible to near-infrared, i.e. VIS-NIR, spectral bands from remote sensing images.</li>
-					<li>Sentinel-2 Level-2A (S-2A) images we collected using the Google Earth Engine (GEE) cloud computing platform. For now, we have considered scenes within the period from January to December 2021 without cloud filtering. The clouds were later masked and the images co-registered as image collections.</li>
-					<li>In an exploratory analysis of vegetation cover, 5 different vegetation indices (VIs) were computed and stacked for processing and analysis.</li>
-					<li>As no ground truth data is yet available for the period of exploratory analysis (2021), we applied an unsupervised image classification procedure was applied.</li>
-					<li>This classification experiment hypothesised a combination of VIs to provide complementary information and features to enhance thresholding of vegetation and land cover types. Nonetheless, for VI-based classification, it is inappropriate to assume similar vegetation class thresholds for all VI types - the widely applied thresholds may not be optimal for all VIs, vegetation types and context.</li>
-					<li>The K-means clustering algorithm was applied with 5 clusters selected based on visual observations from the classes obtained by VI thresholding.</li>
-					<li>On this basis clustering results, we applied five thresholds of potential vegetation classes (&lt; 0.2:  No Vegetation, 0.2 – 0.3: Low vegetation, 0.3 – 0.4: Sparse vegetation, 0.4 – 0.5: Moderate vegetation, and &gt; 0.5: Moderate-High vegetation).</li>
-					<li>Image thresholding procedure and unsupervised classification (image clustering) were conducted using the GEE cloud computing platform and the resultant images exported as Geo Tiff files for further (supervised) analysis.</li>
-					</ul>
-					<p><figure><img src="images/KMeans_ElbowPlot_SilhouetteMetric.png"><figcaption>
-					      <h4>K-Means Clustering Silhoutte Metric</h4>
-					    </figcaption>
-					</figure>
-					
-					<figure><img src="images/DAFORSpecies_HCA_Dendrogram_ClustersLabeled.png"><figcaption>
-					      <h4>Heirarchical Cluster Analysis Dendrogram</h4>
-					    </figcaption>
-					</figure>
-					
-					<figure><img src="images/DAFORspecies_HCA_JaccardSimilarityIndexPlot.png"><figcaption>
-					      <h4>Jaccard Similarity Index Analysis of Clusters</h4>
-					    </figcaption>
-					</figure>
-					
-					<figure><img src="images/AsharVIthresholdClasses.png"><figcaption>
-					      <h4>Vegetation cover classes for Wadi Ashar according to thresholds of different vegetation indices (VIs): a. NDVI b. EVI, c. SAVI, d. MSAVI, and e. GSAVI</h4>
-					    </figcaption>
-					</figure>
-					
-					<figure><img src="images/AsharKmeanClustersVegClasses.png"><figcaption>
-					      <h4>The vegetation classes from unsupervised (K-means clustering) classification of time-series images of 5 VIs</h4>
-					    </figcaption>
-					</figure>
-					</p>
-					        </div>
-					          <a href="post/project-5/index.html" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-					        
-					      </div>
-					    </div>
-					  </div>
-					</article>
+						<article class="bb b--black-10">
+							<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+						    		<div class="flex flex-column flex-row-ns">
+								        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+								        	<a href="post/project-5/index.html" class="db grow">
+								            	<img src="images/Ashar/WadiAsharVegetation_Figure4.png" class="img" alt="image from Project 5: Predictor of Plant distribution clusters">
+								          	</a>
+								        </div>
+						      
+									<div class="blah w-100 w-60-ns pl3-ns">
+										<h1 class="f3 fw1 athelas mt0 lh-title">
+									  	<a href="post/project-5/index.html" class="color-inherit dim link">
+									    	Project 5: Predictor of Plant distribution clusters
+									    	</a>
+										</h1>
+										<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+									  		<ul>
+											<li>As a proxy for vegetation photosynthetic activity, vegetation indices (VIs) were estimated from the visible to near-infrared, i.e. VIS-NIR, spectral bands from remote sensing images.</li>
+											<li>Sentinel-2 Level-2A (S-2A) images we collected using the Google Earth Engine (GEE) cloud computing platform. For now, we have considered scenes within the period from January to December 2021 without cloud filtering. The clouds were later masked and the images co-registered as image collections.</li>
+											<li>In an exploratory analysis of vegetation cover, 5 different vegetation indices (VIs) were computed and stacked for processing and analysis.</li>
+											<li>As no ground truth data is yet available for the period of exploratory analysis (2021), we applied an unsupervised image classification procedure was applied.</li>
+											<li>This classification experiment hypothesised a combination of VIs to provide complementary information and features to enhance thresholding of vegetation and land cover types. Nonetheless, for VI-based classification, it is inappropriate to assume similar vegetation class thresholds for all VI types - the widely applied thresholds may not be optimal for all VIs, vegetation types and context.</li>
+											<li>The K-means clustering algorithm was applied with 5 clusters selected based on visual observations from the classes obtained by VI thresholding.</li>
+											<li>On this basis clustering results, we applied five thresholds of potential vegetation classes (&lt; 0.2:  No Vegetation, 0.2 – 0.3: Low vegetation, 0.3 – 0.4: Sparse vegetation, 0.4 – 0.5: Moderate vegetation, and &gt; 0.5: Moderate-High vegetation).</li>
+											<li>Image thresholding procedure and unsupervised classification (image clustering) were conducted using the GEE cloud computing platform and the resultant images exported as Geo Tiff files for further (supervised) analysis.</li>
+											</ul>
+											<p>
+											<figure><img src="images/KMeans_ElbowPlot_SilhouetteMetric.png">
+												<figcaption>
+											      	<h4>K-Means Clustering Silhoutte Metric</h4>
+											    	</figcaption>
+											</figure>
+											
+											<figure><img src="images/DAFORSpecies_HCA_Dendrogram_ClustersLabeled.png">
+												<figcaption>
+											      	<h4>Heirarchical Cluster Analysis Dendrogram</h4>
+											    	</figcaption>
+											</figure>
+											
+											<figure><img src="images/DAFORspecies_HCA_JaccardSimilarityIndexPlot.png">
+												<figcaption>
+											      	<h4>Jaccard Similarity Index Analysis of Clusters</h4>
+											    	</figcaption>
+											</figure>
+											
+											<figure><img src="images/AsharVIthresholdClasses.png">
+												<figcaption>
+											      	<h4>Vegetation cover classes for Wadi Ashar according to thresholds of different vegetation indices (VIs): a. NDVI b. EVI, c. SAVI, d. MSAVI, and e. GSAVI</h4>
+											    	</figcaption>
+											</figure>
+											
+											<figure><img src="images/AsharKmeanClustersVegClasses.png">
+												<figcaption>
+											      	<h4>The vegetation classes from unsupervised (K-means clustering) classification of time-series images of 5 VIs</h4>
+											    	</figcaption>
+											</figure>
+											</p>
+										</div>
+						          			<a href="post/project-5/index.html" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">
+								  		read more</a>        
+									</div>
+								</div>
+						  	</div>
+						</article>
 			
 			        	</div>
 			          
